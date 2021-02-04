@@ -1,1 +1,1 @@
-This simple tool is designed for personal use and should speed up the process of finding relevant CJEU case law. It asks the user for a case-number or a list of case-numbers and opens those cases in the browser
+This simple tool is designed for personal use and should speed up the process of finding relevant CJEU case law. It asks the user for a case-number or a list of case-numbers and opens those cases in the browser.
