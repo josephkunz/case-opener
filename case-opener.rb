@@ -19,3 +19,11 @@ case_opener
 
 # to implement:
 # 1. while user input not "done" ask for user input and open user input
+
+
+# 3. user can type case number(s) and receive either all cases opened in the browser
+# => or reiceive all cases as pdfs (in the language of preference or default)
+#   3.1. user input gets stored in array.
+#        3.1.1 user input split by ";" and spaces removed.
+#   3.2. array iteration and conditional: download all cases, else (unsuccesful)
+#   3.3. open case in browser
