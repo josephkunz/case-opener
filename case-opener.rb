@@ -1,8 +1,8 @@
 def case_opener
-  puts "Insert case number in the following format: 123/24. When done, type: done."
+  puts "Insert case number in the following format: 123/24. When done, type: quit."
   print ">>>> C-"
   case_id = gets.chomp.capitalize
-  until case_id == "Done" do
+  until case_id.start_with?("q".capitalize) do
     puts "Insert case number in the following format: 123/24."
     print ">>>> C-"
     case_id = gets.chomp.capitalize
@@ -27,3 +27,5 @@ case_opener
 #        3.1.1 user input split by ";" and spaces removed.
 #   3.2. array iteration and conditional: download all cases, else (unsuccesful)
 #   3.3. open case in browser
+
+# 4. better use Eur-lex instead of curia
